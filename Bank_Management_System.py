@@ -5,7 +5,7 @@ crsr=None
 
 con=mysql.connector.connect(
     user='root',
-    password='Aparna@217',
+    password='password',
     database='bank_db',
     host='localhost'
 )
