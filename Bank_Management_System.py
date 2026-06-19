@@ -4,10 +4,10 @@ con=None
 crsr=None
 
 con=mysql.connector.connect(
-    user='root',
-    password='password',
-    database='bank_db',
-    host='localhost'
+    user='USER_NAME',
+    password='USER_PASSWORD',
+    database='DATABASE_NAME',
+    host='USER_HOST'
 )
 
 crsr=con.cursor()
